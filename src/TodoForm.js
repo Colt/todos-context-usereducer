@@ -6,7 +6,7 @@ import { TodosContext } from "./context/todos.context";
 function TodoForm() {
   const [value, handleChange, reset] = useInputState("");
   const { addTodo } = useContext(TodosContext);
-  console.log("TODO FORM RE-RENDER");
+  console.log("TODO FORM RENDER!!!");
   return (
     <Paper style={{ margin: "1rem 0", padding: "0 1rem" }}>
       <form
